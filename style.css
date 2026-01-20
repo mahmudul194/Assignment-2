@@ -145,7 +145,7 @@ a {
   padding-bottom: clamp(80px, 15vw, 150px);
   text-align: center;
   position: relative;
-  background-image: url('assets/hero-bg.png');
+  background-image: url('./assets/hero-bg.png');
   background-repeat: no-repeat;
   background-position: top center;
   background-size:100%;
