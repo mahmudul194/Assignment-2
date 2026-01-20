@@ -18,6 +18,9 @@ a {
   color: white;
   transition: color 0.3s ease;
 }
+.reduced-width {
+  max-width: 800px;
+}
 .container {
   max-width: 1100px;
   margin: 0 auto;
@@ -25,6 +28,11 @@ a {
 }
 .text-center {
   text-align: center;
+}
+.highlight {
+  background: linear-gradient(90deg, #FF3D77, #B620E0);
+  background-clip: text;
+  color: transparent;
 }
 
 /* Header */
@@ -90,4 +98,11 @@ a {
   text-align: center;
   font-size: 2.2rem;
   margin-bottom: 50px;
+}
+
+/* Navigation Hover */
+.main-nav a {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
