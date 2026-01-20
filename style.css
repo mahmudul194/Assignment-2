@@ -728,3 +728,72 @@ a {
 
 }
 
+@media (max-width: 576px) {
+
+
+  .hero-title {
+        font-size: 7vw;
+        margin-top: -156px;
+    }
+
+  .hero {
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+  }
+
+  .hero-visual {
+    width: 60vw;
+    height: 60vw;
+    background-size: contain;
+  }
+
+         .hero-circle-img {
+        width: 50%;
+        margin-bottom: 22px;
+    }
+
+      .hero-mic {
+        height: 20%;
+        margin-bottom: 10px;
+    }
+
+      .badge-new {
+        top: -3%;
+        right: 19%;
+    }
+
+  .stats-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .stat-item h3 {
+    font-size: 1.8rem;
+  }
+
+  .host-card {
+    padding: 30px 20px;
+  }
+
+  .host-img {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 20px;
+  }
+
+  .social-links-row {
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+  }
+  .episode-grid {
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .episode-card {
+    height: 350px;
+    width: 450px;
+  }
+}
